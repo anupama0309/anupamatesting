@@ -20,7 +20,7 @@ public class MTLogin
 		
 		LoginNew log=PageFactory.initElements(driver, LoginNew.class);
 		log.logincheck("cjc1", "pass");
-		
+		System.out.println("login successfully");
 		
 	}
 }
